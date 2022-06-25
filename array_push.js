@@ -1,3 +1,5 @@
+//A program to show how array.push() function works
+
 function arrayAdd(arr, val) {
     arr = arr.concat(val); 
     return arr;
