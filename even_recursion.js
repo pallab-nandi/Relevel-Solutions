@@ -1,3 +1,5 @@
+// even number from i to n
+
 function even(i, n) {
     if(i <= n) {
         console.log(i);
