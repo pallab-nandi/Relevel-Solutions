@@ -1,6 +1,6 @@
 /**
- * 1. we sort the array in descending manner.
- * 2. we choose index = 1 for 2nd highest.
+ * 1. we sort the array in ascending manner using sort().
+ * 2. we choose index = [-2] for 2nd highest.
  */
 
 
