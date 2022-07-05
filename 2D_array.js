@@ -19,15 +19,21 @@ let twoDArray = [
                     ["Pawan", "B.tech", "BITS", 80]
                 ]
 
-console.log(twoDArray[0][0]);
-console.log(twoDArray[0][1]);
-console.log(twoDArray[0][2]);
-console.log(twoDArray[0][3]);
-console.log(twoDArray[1][0]);
-console.log(twoDArray[1][1]);
-console.log(twoDArray[1][2]);
-console.log(twoDArray[1][3]);
-console.log(twoDArray[2][0]);
-console.log(twoDArray[2][1]);
-console.log(twoDArray[2][2]);
-console.log(twoDArray[2][3]);
+// console.log(twoDArray[0][0]);
+// console.log(twoDArray[0][1]);
+// console.log(twoDArray[0][2]);
+// console.log(twoDArray[0][3]);
+// console.log(twoDArray[1][0]);
+// console.log(twoDArray[1][1]);
+// console.log(twoDArray[1][2]);
+// console.log(twoDArray[1][3]);
+// console.log(twoDArray[2][0]);
+// console.log(twoDArray[2][1]);
+// console.log(twoDArray[2][2]);
+// console.log(twoDArray[2][3]);
+
+for(let i = 0; i < twoDArray.length; i++) {
+    for(let j = 0; j < twoDArray[i].length; j++){
+        console.log(twoDArray[i][j]);
+    }
+}
