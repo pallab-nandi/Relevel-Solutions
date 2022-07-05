@@ -11,4 +11,3 @@ console.log(myPow(4, 0)); // 1
 console.log(myPow(2, 5)); // 32
 console.log(myPow(2, -3)); // 0.125
 console.log(myPow(5, -2)); // 0.04
-console.log(myPow(3, -5)); // 0.00411522633744856
