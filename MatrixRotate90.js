@@ -1,5 +1,5 @@
 /**
- * Q - WE HAVE TO ROTATE A SQUARE MATRIX IN 90 DEGREE
+ * Q - WRITE AN ALGORITHM TO ROTATE A SQUARE MATRIX IN 90 DEGREE
  * Ans - Steps have to follow :--
  *      STEP 1 - Declare a Square Matrix
  *      STEP 2 - Observe what happen when we rotate it to 90 degree clockwise
