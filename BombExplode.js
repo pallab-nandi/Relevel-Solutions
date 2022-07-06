@@ -10,3 +10,24 @@
  * But there such no position since it is a 3X3 Matrix.
  *          STEP 4 - Have to use 2 loops to find the solution.
  */
+
+function explode(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        for(let j = 0; j < arr[i].length; j++) {
+            if(arr[i][j] == -1) {
+                if(arr[i][j+1] == 0) {
+                    arr[i][j+1] = 1;
+                }
+            }
+        }
+    }
+    return arr;
+}
+
+let arr = [
+    [-1, 0, 0],
+    [0, -1, 0],
+    [0, 0, -1]
+]
+
+console.log(explode(arr));
