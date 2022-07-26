@@ -9,13 +9,13 @@ let todoApp = {
         this.task = task;
         this.isDone = isDone;
     },
+    
 
     addTask(task){
 
 	// use this.todos to access above declared array inside functions
 
 	// this method adds task
-
     let taskObj = new this.TodoTask(this.count, task, false);
     
     this.todos.push(taskObj);
